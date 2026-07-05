@@ -130,40 +130,20 @@ Run the training notebook or training script to generate the trained model.
 
 ---
 
-## 🚀 Run the FastAPI Server
+## 🚀 Run the Streamlit App
+
+Start the application using:
 
 ```bash
-uvicorn app:app --reload
-```
-
-The API will be available at:
-
-```
-http://127.0.0.1:8000
-```
-
-Interactive API documentation:
-
-```
-http://127.0.0.1:8000/docs
-```
+streamlit run app.py
 
 ---
 
-## 📤 API Usage
+## 🌐 Live Demo
 
-### POST `/predict`
+Try the application here:
 
-Upload an X-ray image for prediction.
-
-Example response:
-
-```json
-{
-  "prediction": "Fractured",
-  "confidence": 0.97
-}
-```
+**(https://bonefracturedetection-ndowdhazdf9gofeqzmkeyp.streamlit.app/)**
 
 ---
 
