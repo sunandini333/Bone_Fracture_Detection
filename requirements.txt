@@ -15,3 +15,8 @@ tensorflow
 pillow
 python-multipart
 streamlit
+streamlit
+tensorflow
+numpy
+pillow
+opencv-python-headless
