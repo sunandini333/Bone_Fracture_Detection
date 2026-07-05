@@ -136,7 +136,7 @@ Start the application using:
 
 ```bash
 streamlit run app.py
-
+```
 ---
 
 ## 🌐 Live Demo
